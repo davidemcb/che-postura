@@ -132,6 +132,7 @@ h3 { font-size: 22px; }
 .voci-di .di img { width: 60px; height: 60px; border-radius: 50%; object-fit: cover; }
 .voci-di .di b { display: block; font-size: 18px; }
 .voci-di .di span { font-size: 14.5px; color: var(--tenue); }
+.voci-di .di .stelle { color: var(--arancio); }
 .voci blockquote { background: var(--carta); border: 1px solid var(--linea); border-radius: 18px; padding: 26px; font-family: var(--serif); font-weight: 600; font-size: 18px; line-height: 1.38; }
 .voci cite { display: block; font-family: var(--sans); font-style: normal; font-weight: 400; font-size: 14px; color: var(--tenue); margin-top: 14px; }
 .stelle { color: var(--arancio); letter-spacing: .1em; }
