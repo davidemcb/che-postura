@@ -126,7 +126,12 @@ h3 { font-size: 22px; }
 .segni li::before { content: '✓'; position: absolute; left: 0; top: 13px; width: 26px; height: 26px; border-radius: 50%; background: var(--verde); color: #fff; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
 
 /* ---------- voci ---------- */
-.voci { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 36px; }
+.voci { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 36px; align-items: start; }
+.voci-di { display: grid; gap: 14px; }
+.voci-di .di { display: flex; align-items: center; gap: 14px; margin-bottom: 4px; }
+.voci-di .di img { width: 60px; height: 60px; border-radius: 50%; object-fit: cover; }
+.voci-di .di b { display: block; font-size: 18px; }
+.voci-di .di span { font-size: 14.5px; color: var(--tenue); }
 .voci blockquote { background: var(--carta); border: 1px solid var(--linea); border-radius: 18px; padding: 26px; font-family: var(--serif); font-weight: 600; font-size: 18px; line-height: 1.38; }
 .voci cite { display: block; font-family: var(--sans); font-style: normal; font-weight: 400; font-size: 14px; color: var(--tenue); margin-top: 14px; }
 .stelle { color: var(--arancio); letter-spacing: .1em; }
