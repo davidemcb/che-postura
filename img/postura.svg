@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 500" role="img" aria-label="Tre figure: da curva a dritta e sorridente">
+  <defs>
+    <clipPath id="carta"><rect width="560" height="500" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#carta)">
+    <rect width="560" height="500" fill="#F6F3EA"/>
+    <!-- sole e collina -->
+    <circle cx="420" cy="170" r="150" fill="#F2A46C" opacity=".38"/>
+    <circle cx="420" cy="170" r="104" fill="#F2A46C" opacity=".45"/>
+    <path d="M0 410 C 120 372, 250 396, 360 384 S 520 372, 560 392 V500 H0Z" fill="#DCE5D6"/>
+    <path d="M0 440 C 150 420, 300 446, 560 424 V500 H0Z" fill="#2F5D51"/>
+
+    <!-- freccia tratteggiata che sale -->
+    <path d="M70 150 C 170 120, 250 96, 330 70" fill="none" stroke="#24493F" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 14" opacity=".45"/>
+
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <!-- 1: curva, testa in avanti -->
+      <g stroke="#7E8E86">
+        <path d="M112 338 L98 428 M112 338 L130 428" stroke-width="15"/>
+        <path d="M112 338 C 84 292, 100 240, 150 222" stroke-width="30"/>
+        <path d="M140 240 C 160 274, 160 300, 152 326" stroke-width="13"/>
+      </g>
+      <circle cx="178" cy="200" r="30" fill="#7E8E86"/>
+      <path d="M176 214 q9 -7 18 -1" stroke="#F6F3EA" stroke-width="4"/>
+      <circle cx="188" cy="196" r="3.4" fill="#F6F3EA"/>
+      <g fill="#F6F3EA"><circle cx="103" cy="318" r="4"/><circle cx="96" cy="294" r="4"/><circle cx="99" cy="269" r="4"/><circle cx="112" cy="248" r="4"/><circle cx="132" cy="233" r="4"/></g>
+
+      <!-- 2: a metà strada -->
+      <g stroke="#2F5D51">
+        <path d="M268 338 L258 428 M268 338 L284 428" stroke-width="15"/>
+        <path d="M268 338 C 254 292, 262 242, 284 208" stroke-width="30"/>
+        <path d="M280 228 C 298 262, 300 292, 296 322" stroke-width="13"/>
+      </g>
+      <circle cx="300" cy="178" r="30" fill="#2F5D51"/>
+      <path d="M298 192 h18" stroke="#F6F3EA" stroke-width="4"/>
+      <circle cx="311" cy="174" r="3.4" fill="#F6F3EA"/>
+      <g fill="#F6F3EA"><circle cx="263" cy="318" r="4"/><circle cx="260" cy="294" r="4"/><circle cx="262" cy="270" r="4"/><circle cx="268" cy="247" r="4"/><circle cx="278" cy="226" r="4"/></g>
+
+      <!-- 3: dritta, braccia al cielo -->
+      <g stroke="#E8742A">
+        <path d="M430 338 L420 428 M430 338 L442 428" stroke-width="15"/>
+        <path d="M430 338 C 428 292, 430 244, 430 204" stroke-width="30"/>
+        <path d="M430 226 L386 168 M430 226 L474 168" stroke-width="13"/>
+      </g>
+      <circle cx="430" cy="160" r="30" fill="#E8742A"/>
+      <path d="M418 168 q12 12 24 0" stroke="#F6F3EA" stroke-width="4"/>
+      <circle cx="420" cy="154" r="3.4" fill="#F6F3EA"/><circle cx="440" cy="154" r="3.4" fill="#F6F3EA"/>
+      <g fill="#F6F3EA"><circle cx="430" cy="318" r="4"/><circle cx="430" cy="294" r="4"/><circle cx="430" cy="270" r="4"/><circle cx="430" cy="246" r="4"/><circle cx="430" cy="222" r="4"/></g>
+
+      <!-- scintille -->
+      <g stroke="#24493F" stroke-width="5">
+        <path d="M368 120 l-10 -14 M496 118 l10 -14 M430 96 v-18"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -55,8 +55,8 @@ h3 { font-size: 22px; }
 .apertura .spiega { font-size: 19px; color: #D5DDD6; margin-top: 18px; max-width: 560px; }
 .apertura .azioni { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
 .apertura figure { position: relative; }
-.apertura figure img { border-radius: 22px; width: 100%; aspect-ratio: 4 / 3.4; object-fit: cover; object-position: 30% 50%; }
-.somma { position: absolute; left: -18px; bottom: 26px; background: var(--arancio-chiaro); color: var(--verde-scuro); font-family: var(--serif); font-weight: 700; font-size: 26px; padding: 8px 22px 11px; border-radius: 40px; box-shadow: 0 10px 26px rgba(0,0,0,.25); }
+.apertura figure img { border-radius: 22px; width: 100%; aspect-ratio: 560 / 500; object-fit: cover; }
+.somma { position: absolute; left: -18px; top: 24px; background: var(--arancio-chiaro); color: var(--verde-scuro); font-family: var(--serif); font-weight: 700; font-size: 26px; padding: 8px 22px 11px; border-radius: 40px; box-shadow: 0 10px 26px rgba(0,0,0,.25); }
 
 /* ---------- il problema ---------- */
 .giro { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 40px; counter-reset: giro; }
@@ -154,7 +154,7 @@ footer p + p { margin-top: 8px; }
   .apertura { padding: 46px 0 60px; }
   .apertura .contenitore, .equipe-manca, .confronto, .persone, .direzioni, .recapiti, .segni { grid-template-columns: 1fr; }
   .apertura .contenitore { gap: 34px; }
-  .somma { left: 12px; bottom: 14px; font-size: 21px; }
+  .somma { left: 12px; top: 12px; font-size: 21px; }
   .giro { grid-template-columns: 1fr 1fr; }
   .voci { grid-template-columns: 1fr; }
   .passo { grid-template-columns: 52px 1fr; gap: 16px; padding: 20px; }
