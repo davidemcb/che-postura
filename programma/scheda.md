@@ -23,6 +23,7 @@ In lavorazione (Davide, ottobre 2026). Poi test: vedi `test.md`.
 
 - Dove sta il programma (file, codice, servizio) e come si avvia.
 - Quali foto servono (quante, da che angolazioni, come vanno scattate).
+- Quali punti di repere si segnano e con quale colore ciascuno.
 - Cosa misura esattamente e in che forma salva i risultati.
 - Come si fa il confronto tra due analisi della stessa persona.
 
@@ -38,7 +39,8 @@ trocantere, malleolo, ecc.) vanno segnati sulla pelle con marker ben visibili.
 - Pelle pulita con alcol prima di attaccarli, altrimenti si staccano.
 - Per le foto di lato i bollini piatti sulla schiena e sul bacino non si vedono:
   lì servono marker a semisfera o a sfera (10-15 mm) su biadesivo.
-- Opzioni: bollini adesivi da cartoleria (economici, per prova e foto frontali);
-  kit di marker riflettenti sferici dei produttori di sistemi posturali
-  (GPS Global Postural System, Chinesport, Sensor Medica) per lavorare in modo
-  stabile.
+- Scelta fatta (Davide, ottobre 2026): bollini adesivi da cartolibreria.
+  Da comprare: bollini colorati opachi da 12 mm circa, almeno due colori (blu e verde),
+  sempre della stessa marca e misura. Se in futuro servono le foto di lato,
+  si valutano i marker a sfera dei produttori di sistemi posturali
+  (GPS Global Postural System, Chinesport, Sensor Medica).
