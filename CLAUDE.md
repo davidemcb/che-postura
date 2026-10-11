@@ -18,7 +18,7 @@ Formula del progetto: **1 + 1 fa 3**.
 |-----------|----------|-------|------|
 | Sito | `index.html`, `stile.css`, `img/` | Da approvare in via definitiva | Pagina unica, completa. Manca l'approvazione finale di Davide e Morena prima di considerarlo chiuso. |
 | Volantino | `volantino/` | Pronto, da stampare | Bloccato da una foto: manca la foto di Morena mentre fa un personal (allenamento individuale). Scattata la foto, si inserisce e si manda in stampa. Il file non è ancora nel repository: da caricare qui (sorgente + PDF). |
-| Programma | `programma/` | Da testare | Esiste ma non è ancora stato provato. Prima del test non si considera pronto. Da chiarire se è il programma di analisi posturale usato nel passo 2 del metodo, e da caricare qui (o documentare qui) cosa è e come si usa. |
+| Programma | `programma/` | In lavorazione, poi da testare | Davide lo sta finendo in questi giorni (ottobre 2026). Quando è finito si passa al test; prima del test non si considera pronto. Da chiarire se è il programma di analisi posturale usato nel passo 2 del metodo, e da caricare qui (o documentare qui) cosa è e come si usa. |
 | Social | `social/` | In corso | Davide e Morena pubblicano video dai propri profili. Pubblicati finora: video in cui Davide mostra come lavora; video di Morena che introduce l'idea del lavoro in comune. Da tenere qui un registro dei video (data, profilo, argomento, link). |
 
 Regola: un materiale esiste per il progetto solo se sta in questo repository.
@@ -87,7 +87,7 @@ Se un contatto cambia: aggiornarlo qui, poi nel sito, poi in ogni altro material
 1. Sito: approvazione definitiva di Davide e Morena. Finché non arriva, lo stato resta "da approvare".
 2. Volantino: scattare la foto di Morena durante un personal, inserirla, poi stampare.
 3. Volantino: caricare sorgente e PDF in `volantino/`.
-4. Programma: fare il test. Annotare in `programma/test.md` cosa si è provato, cosa ha funzionato e cosa no.
+4. Programma: finire la lavorazione (Davide, in questi giorni), poi fare il test. Annotare in `programma/test.md` cosa si è provato, cosa ha funzionato e cosa no.
 5. Programma: chiarire cosa è esattamente e documentarlo in `programma/`.
 6. Controllare che volantino e programma usino i messaggi e i contatti di questo file.
 7. Compilare `social/registro.md` con i video già pubblicati (link e date).
