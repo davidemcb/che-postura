@@ -19,6 +19,7 @@ Formula del progetto: **1 + 1 fa 3**.
 | Sito | `index.html`, `stile.css`, `img/` | Fatto | Pagina unica. Ultime modifiche: recensioni divise tra Davide e Morena. |
 | Volantino | `volantino/` | Mancante nel repository | Non è mai stato caricato qui. Da portare dentro (file sorgente + PDF) prima di poterlo controllare. |
 | Programma | `programma/` | Mancante nel repository | Da chiarire cosa si intende (programma del percorso? programma di analisi posturale? calendario?). Poi caricarlo qui. |
+| Social | `social/` | In corso | Davide e Morena pubblicano video dai propri profili. Pubblicati finora: video in cui Davide mostra come lavora; video di Morena che introduce l'idea del lavoro in comune. Da tenere qui un registro dei video (data, profilo, argomento, link). |
 
 Regola: un materiale esiste per il progetto solo se sta in questo repository.
 Se è stato fatto altrove, va copiato qui nella cartella indicata.
@@ -71,8 +72,20 @@ Se un contatto cambia: aggiornarlo qui, poi nel sito, poi in ogni altro material
 - Prima di chiudere una sessione: aggiornare il quadro dei materiali qui sopra
   se qualcosa è cambiato di stato.
 
+## Social
+
+- Canali: i profili personali di Davide e di Morena (non esiste ancora un profilo
+  Che Postura!).
+- Linea seguita finora: Davide fa vedere come lavora; Morena porta l'idea del lavoro
+  in comune. Ogni video deve riportare al progetto: nome Che Postura!, formula
+  1 + 1 fa 3, e un rimando al sito o alla prenotazione.
+- Registro dei video in `social/registro.md`: data, chi pubblica, argomento, link.
+  Si aggiorna a ogni pubblicazione.
+
 ## Cose aperte
 
 1. Portare il volantino nel repository (`volantino/`).
 2. Chiarire cosa è "il programma" e portarlo nel repository (`programma/`).
 3. Controllare che volantino e programma usino i messaggi e i contatti di questo file.
+4. Compilare `social/registro.md` con i video già pubblicati (link e date).
+5. Decidere se aprire un profilo Che Postura! o continuare solo dai profili personali.
