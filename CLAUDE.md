@@ -16,7 +16,7 @@ Formula del progetto: **1 + 1 fa 3**.
 
 | Materiale | Dove sta | Stato | Note |
 |-----------|----------|-------|------|
-| Sito | `index.html`, `stile.css`, `img/` | Da approvare in via definitiva | Pagina unica, completa. Manca l'approvazione finale di Davide e Morena prima di considerarlo chiuso. |
+| Sito | `index.html`, `stile.css`, `img/` | Approvato, chiuso | Pagina unica, completa. Approvato così com'è da Davide l'11 ottobre 2026. Da qui in poi si tocca solo se cambia un contatto o un messaggio di questo file. |
 | Volantino | `volantino/` | Pronto, da stampare | Bloccato da una foto: manca la foto di Morena mentre fa un personal (allenamento individuale). Scattata la foto, si inserisce e si manda in stampa. Il file non è ancora nel repository: da caricare qui (sorgente + PDF). |
 | Programma di analisi posturale | `programma/` | In lavorazione, poi da testare | È il programma del passo 2 del metodo: si inseriscono le foto della persona, il programma fa l'analisi posturale e permette di monitorare nel tempo cosa cambia. Davide lo sta finendo in questi giorni (ottobre 2026). Quando è finito si passa al test; prima del test non si considera pronto. Descrizione in `programma/scheda.md`. |
 | Social | `social/` | In corso | Davide e Morena pubblicano video su Instagram dai propri profili. Pubblicati finora: video in cui Davide mostra come lavora; video di Morena che introduce l'idea del lavoro in comune. Da tenere qui un registro dei video (data, profilo, argomento, link). |
@@ -84,11 +84,10 @@ Se un contatto cambia: aggiornarlo qui, poi nel sito, poi in ogni altro material
 
 ## Cose aperte
 
-1. Sito: approvazione definitiva di Davide e Morena. Finché non arriva, lo stato resta "da approvare".
-2. Volantino: scattare la foto di Morena durante un personal, inserirla, poi stampare.
-3. Volantino: caricare sorgente e PDF in `volantino/`.
-4. Programma: finire la lavorazione (Davide, in questi giorni), poi fare il test. Annotare in `programma/test.md` cosa si è provato, cosa ha funzionato e cosa no.
-5. Programma: quando è finito, caricare qui il codice o i file (oppure scrivere in `programma/scheda.md` dove sta e come si avvia).
-6. Controllare che volantino e programma usino i messaggi e i contatti di questo file.
-7. Compilare `social/registro.md` con i video già pubblicati (link e date).
-8. Decidere se aprire un profilo Che Postura! o continuare solo dai profili personali.
+1. Volantino: scattare la foto di Morena durante un personal, inserirla, poi stampare.
+2. Volantino: caricare sorgente e PDF in `volantino/`.
+3. Programma: finire la lavorazione (Davide, in questi giorni), poi fare il test. Annotare in `programma/test.md` cosa si è provato, cosa ha funzionato e cosa no.
+4. Programma: quando è finito, caricare qui il codice o i file (oppure scrivere in `programma/scheda.md` dove sta e come si avvia).
+5. Controllare che volantino e programma usino i messaggi e i contatti di questo file.
+6. Compilare `social/registro.md` con i video già pubblicati (link e date).
+7. Decidere se aprire un profilo Che Postura! o continuare solo dai profili personali.
