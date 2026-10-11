@@ -16,8 +16,8 @@ Formula del progetto: **1 + 1 fa 3**.
 
 | Materiale | Dove sta | Stato | Note |
 |-----------|----------|-------|------|
-| Sito | `index.html`, `stile.css`, `img/` | Fatto | Pagina unica. Ultime modifiche: recensioni divise tra Davide e Morena. |
-| Volantino | `volantino/` | Mancante nel repository | Non è mai stato caricato qui. Da portare dentro (file sorgente + PDF) prima di poterlo controllare. |
+| Sito | `index.html`, `stile.css`, `img/` | Da approvare in via definitiva | Pagina unica, completa. Manca l'approvazione finale di Davide e Morena prima di considerarlo chiuso. |
+| Volantino | `volantino/` | Pronto, da stampare | Bloccato da una foto: manca la foto di Morena mentre fa un personal (allenamento individuale). Scattata la foto, si inserisce e si manda in stampa. Il file non è ancora nel repository: da caricare qui (sorgente + PDF). |
 | Programma | `programma/` | Mancante nel repository | Da chiarire cosa si intende (programma del percorso? programma di analisi posturale? calendario?). Poi caricarlo qui. |
 | Social | `social/` | In corso | Davide e Morena pubblicano video dai propri profili. Pubblicati finora: video in cui Davide mostra come lavora; video di Morena che introduce l'idea del lavoro in comune. Da tenere qui un registro dei video (data, profilo, argomento, link). |
 
@@ -84,8 +84,10 @@ Se un contatto cambia: aggiornarlo qui, poi nel sito, poi in ogni altro material
 
 ## Cose aperte
 
-1. Portare il volantino nel repository (`volantino/`).
-2. Chiarire cosa è "il programma" e portarlo nel repository (`programma/`).
-3. Controllare che volantino e programma usino i messaggi e i contatti di questo file.
-4. Compilare `social/registro.md` con i video già pubblicati (link e date).
-5. Decidere se aprire un profilo Che Postura! o continuare solo dai profili personali.
+1. Sito: approvazione definitiva di Davide e Morena. Finché non arriva, lo stato resta "da approvare".
+2. Volantino: scattare la foto di Morena durante un personal, inserirla, poi stampare.
+3. Volantino: caricare sorgente e PDF in `volantino/`.
+4. Chiarire cosa è "il programma" e portarlo nel repository (`programma/`).
+5. Controllare che volantino e programma usino i messaggi e i contatti di questo file.
+6. Compilare `social/registro.md` con i video già pubblicati (link e date).
+7. Decidere se aprire un profilo Che Postura! o continuare solo dai profili personali.
