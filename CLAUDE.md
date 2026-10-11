@@ -20,6 +20,7 @@ Formula del progetto: **1 + 1 fa 3**.
 | Volantino | `volantino/` | Pronto, da stampare | Bloccato da una foto: manca la foto di Morena mentre fa un personal (allenamento individuale). Scattata la foto, si inserisce e si manda in stampa. Il file non è ancora nel repository: da caricare qui (sorgente + PDF). |
 | Programma di analisi posturale | `programma/` | In lavorazione, poi da testare | È il programma del passo 2 del metodo: si inseriscono le foto della persona, il programma fa l'analisi posturale e permette di monitorare nel tempo cosa cambia. Davide lo sta finendo in questi giorni (ottobre 2026). Quando è finito si passa al test; prima del test non si considera pronto. Marker: bollini adesivi da cartolibreria (12 mm, blu e verde). Descrizione in `programma/scheda.md`. |
 | Modulo privacy | Documento "Consenso foto posturali e dati": https://claude.ai/code/artifact/5946d510-f39c-43d5-ae1c-924576b1fe64 | Bozza completa, da verificare con il consulente privacy | Modulo di consenso per foto posturali, dati e area riservata del programma. Dieci sezioni, firme, parte per i minori. Contiene una nota per il consulente con tre punti: firma del DPA di Supabase, eventuali accessi dall'estero per l'assistenza tecnica, uso della dettatura vocale (Google o Apple) per gli appunti del colloquio. Frase da far controllare: "non lo conserva per nostro conto" (riferita all'audio dettato). Non si fa firmare prima del via libera del consulente. |
+| Percorso della persona | `percorso/` | Bozza, da leggere con Morena | Il percorso a tappe da quando una persona arriva (Google Ads, sito, Instagram, da Davide a Morena e viceversa, passaparola) fino a recensione, follow-up e ambasciatore. Quattro file: `percorso.md` (le dieci tappe, con uscita e cosa può andare storto, e il metodo per migliorare ogni mese), `questionario.md` (questionario iniziale), `messaggi.md` (messaggi tipo), `registro.md` (una riga per persona, per vedere dove si ferma). |
 | Social | `social/` | In corso | Video fatti da Davide e Morena insieme, pubblicati su Instagram sul profilo di Davide. Due reel pubblicati finora: Davide mostra come lavora; Morena introduce l'idea del lavoro in comune. Registro con i link in `social/registro.md`. |
 
 Regola: un materiale esiste per il progetto solo se sta in questo repository.
@@ -27,7 +28,7 @@ Se è stato fatto altrove, va copiato qui nella cartella indicata.
 
 ## Messaggi che devono essere uguali ovunque
 
-Sito, volantino e programma devono dire le stesse cose con le stesse parole.
+Sito, volantino, programma, percorso e messaggi devono dire le stesse cose con le stesse parole.
 Fonte di verità: il sito (`index.html`). Se cambia lì, cambia in tutti gli altri.
 
 - Nome: **Che Postura!** (con il punto esclamativo, sempre).
@@ -97,4 +98,5 @@ Se un contatto cambia: aggiornarlo qui, poi nel sito, poi in ogni altro material
 8. Modulo privacy: far verificare al consulente i tre punti della nota e la frase sull'audio dettato; poi togliere la nota e salvare qui il PDF definitivo in `programma/privacy/`.
 9. Programma: il modulo privacy dice che il programma riconosce i punti del corpo in automatico. Chiarire se i bollini servono comunque (per aiutare il riconoscimento o per il controllo a occhio) o no.
 10. Collegamenti a Che Postura! dal sito dello studio di Davide (`https://davidemcb.github.io/kinesiologia-studio/`) e dal sito di Morena: da fare più avanti, non ora (decisione di Davide, 11 ottobre 2026). Indirizzo del sito di Morena da annotare qui quando si fa.
-11. Unire il ramo `claude/vigilant-wright-nzfmyq` (controllore) al ramo `main`: non ora (decisione di Davide, 11 ottobre 2026). Finché non si unisce, il controllore vive solo nel ramo di lavoro.
+11. Percorso: leggerlo con Morena, correggere tempi e parole, decidere dove vive il registro (foglio condiviso o area riservata del programma) e con cosa si fa il questionario (Google Moduli o programma). Preparare il link diretto per la recensione Google di Davide e di Morena.
+12. Unire il ramo `claude/vigilant-wright-nzfmyq` (controllore) al ramo `main`: non ora (decisione di Davide, 11 ottobre 2026). Finché non si unisce, il controllore vive solo nel ramo di lavoro.
