@@ -16,7 +16,7 @@ Formula del progetto: **1 + 1 fa 3**.
 
 | Materiale | Dove sta | Stato | Note |
 |-----------|----------|-------|------|
-| Sito | `index.html`, `stile.css`, `img/` | Approvato, chiuso | Pagina unica, completa. Approvato così com'è da Davide l'11 ottobre 2026. Da qui in poi si tocca solo se cambia un contatto o un messaggio di questo file. |
+| Sito | `index.html`, `stile.css`, `img/` | Approvato, chiuso, online | Online all'indirizzo `https://davidemcb.github.io/che-postura/` (GitHub Pages di questo repository; la versione online è quella del ramo `main`). Pagina unica, completa. Approvato così com'è da Davide l'11 ottobre 2026. Da qui in poi si tocca solo se cambia un contatto o un messaggio di questo file. |
 | Volantino | `volantino/` | Pronto, da stampare | Bloccato da una foto: manca la foto di Morena mentre fa un personal (allenamento individuale). Scattata la foto, si inserisce e si manda in stampa. Il file non è ancora nel repository: da caricare qui (sorgente + PDF). |
 | Programma di analisi posturale | `programma/` | In lavorazione, poi da testare | È il programma del passo 2 del metodo: si inseriscono le foto della persona, il programma fa l'analisi posturale e permette di monitorare nel tempo cosa cambia. Davide lo sta finendo in questi giorni (ottobre 2026). Quando è finito si passa al test; prima del test non si considera pronto. Marker: bollini adesivi da cartolibreria (12 mm, blu e verde). Descrizione in `programma/scheda.md`. |
 | Social | `social/` | In corso | Video fatti da Davide e Morena insieme, pubblicati su Instagram sul profilo di Davide. Due reel pubblicati finora: Davide mostra come lavora; Morena introduce l'idea del lavoro in comune. Registro con i link in `social/registro.md`. |
@@ -42,6 +42,8 @@ Fonte di verità: il sito (`index.html`). Se cambia lì, cambia in tutti gli alt
 
 ## Contatti (unica versione valida)
 
+- Sito Che Postura!: `https://davidemcb.github.io/che-postura/` (è questo l'indirizzo da
+  mettere su volantino, social e ovunque; non esiste `kinesiologia-studio/chepostura/`).
 - Davide Scuderi: 348 151 4382 · Via Capilupi 21, Modena ·
   WhatsApp `https://wa.me/393481514382` ·
   prenotazione `https://calendly.com/infokinesiologia/consulenza`
@@ -91,3 +93,4 @@ Se un contatto cambia: aggiornarlo qui, poi nel sito, poi in ogni altro material
 5. Controllare che volantino e programma usino i messaggi e i contatti di questo file.
 6. Completare `social/registro.md`: date dei due reel e conferma di quale link è quale.
 7. Decidere se aprire un profilo Che Postura! o continuare solo dai profili personali.
+8. Il sito dello studio di Davide (`https://davidemcb.github.io/kinesiologia-studio/`) non rimanda a Che Postura!: aggiungere un collegamento.
