@@ -96,4 +96,5 @@ Se un contatto cambia: aggiornarlo qui, poi nel sito, poi in ogni altro material
 7. Decidere se aprire un profilo Che Postura! o continuare solo dai profili personali.
 8. Modulo privacy: far verificare al consulente i tre punti della nota e la frase sull'audio dettato; poi togliere la nota e salvare qui il PDF definitivo in `programma/privacy/`.
 9. Programma: il modulo privacy dice che il programma riconosce i punti del corpo in automatico. Chiarire se i bollini servono comunque (per aiutare il riconoscimento o per il controllo a occhio) o no.
-10. Il sito dello studio di Davide (`https://davidemcb.github.io/kinesiologia-studio/`) non rimanda a Che Postura!: aggiungere un collegamento.
+10. Collegamenti a Che Postura! dal sito dello studio di Davide (`https://davidemcb.github.io/kinesiologia-studio/`) e dal sito di Morena: da fare più avanti, non ora (decisione di Davide, 11 ottobre 2026). Indirizzo del sito di Morena da annotare qui quando si fa.
+11. Unire il ramo `claude/vigilant-wright-nzfmyq` (controllore) al ramo `main`: non ora (decisione di Davide, 11 ottobre 2026). Finché non si unisce, il controllore vive solo nel ramo di lavoro.
