@@ -19,7 +19,7 @@ Formula del progetto: **1 + 1 fa 3**.
 | Sito | `index.html`, `stile.css`, `img/` | Da approvare in via definitiva | Pagina unica, completa. Manca l'approvazione finale di Davide e Morena prima di considerarlo chiuso. |
 | Volantino | `volantino/` | Pronto, da stampare | Bloccato da una foto: manca la foto di Morena mentre fa un personal (allenamento individuale). Scattata la foto, si inserisce e si manda in stampa. Il file non è ancora nel repository: da caricare qui (sorgente + PDF). |
 | Programma di analisi posturale | `programma/` | In lavorazione, poi da testare | È il programma del passo 2 del metodo: si inseriscono le foto della persona, il programma fa l'analisi posturale e permette di monitorare nel tempo cosa cambia. Davide lo sta finendo in questi giorni (ottobre 2026). Quando è finito si passa al test; prima del test non si considera pronto. Descrizione in `programma/scheda.md`. |
-| Social | `social/` | In corso | Davide e Morena pubblicano video dai propri profili. Pubblicati finora: video in cui Davide mostra come lavora; video di Morena che introduce l'idea del lavoro in comune. Da tenere qui un registro dei video (data, profilo, argomento, link). |
+| Social | `social/` | In corso | Davide e Morena pubblicano video su Instagram dai propri profili. Pubblicati finora: video in cui Davide mostra come lavora; video di Morena che introduce l'idea del lavoro in comune. Da tenere qui un registro dei video (data, profilo, argomento, link). |
 
 Regola: un materiale esiste per il progetto solo se sta in questo repository.
 Se è stato fatto altrove, va copiato qui nella cartella indicata.
@@ -74,8 +74,8 @@ Se un contatto cambia: aggiornarlo qui, poi nel sito, poi in ogni altro material
 
 ## Social
 
-- Canali: i profili personali di Davide e di Morena (non esiste ancora un profilo
-  Che Postura!).
+- Piattaforma: Instagram. Canali: i profili personali di Davide e di Morena
+  (non esiste ancora un profilo Che Postura!).
 - Linea seguita finora: Davide fa vedere come lavora; Morena porta l'idea del lavoro
   in comune. Ogni video deve riportare al progetto: nome Che Postura!, formula
   1 + 1 fa 3, e un rimando al sito o alla prenotazione.
