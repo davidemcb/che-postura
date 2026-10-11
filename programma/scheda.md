@@ -10,6 +10,25 @@
 4. Ai ricontrolli (passo 5) si rifanno le foto e si confrontano con i dati di partenza:
    così si monitora nel tempo cosa cambia.
 
+## Come funziona (da quanto scritto nel modulo privacy, ottobre 2026)
+
+- È una piattaforma online con un'area riservata "Che Postura", ospitata su Supabase,
+  server nell'Unione Europea (Francoforte). Dati cifrati in viaggio, foto in archivio
+  privato senza indirizzi pubblici.
+- Le foto si scattano con un dispositivo dello studio, mai con telefoni personali.
+- Il programma riconosce in automatico i punti del corpo e misura gli allineamenti;
+  il risultato è sempre controllato da Davide o Morena.
+- Entrano Davide e Morena con le proprie credenziali. La persona entra solo nella sua
+  scheda, con email, password e un codice personale dato dallo studio, e vi trova
+  valutazioni, esercizi, referti e date dei controlli.
+- Durante il colloquio si possono dettare appunti a voce con il telefono (riconoscimento
+  vocale di Google o Apple). Negli appunti dettati niente nome, cognome o altri dati
+  identificativi.
+- Conservazione: 5 anni. Con il consenso della persona i dati possono andare al
+  dentista per i bite o al tecnico dei plantari, solo per quello che serve.
+- Prima di usarlo con le persone serve il modulo di consenso firmato (vedi il
+  controllore, riga "Modulo privacy").
+
 ## Chi lo usa
 
 Davide, in studio, nella prima valutazione e nei ricontrolli. I dati che ne escono
