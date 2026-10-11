@@ -6,7 +6,7 @@ Piattaforma: Instagram, dai profili personali di Davide e di Morena.
 | Data | Chi pubblica | Argomento | Link |
 |------|--------------|-----------|------|
 | da inserire | da confermare (Davide o Morena) | da confermare | https://www.instagram.com/reel/DeMQdDzt0NO/ |
-| da inserire | da confermare | da confermare | da inserire |
+| da inserire | da confermare (Davide o Morena) | da confermare | https://www.instagram.com/reel/Dd9E2YztufE/ |
 
 Video noti finora (da abbinare ai link qui sopra):
 
