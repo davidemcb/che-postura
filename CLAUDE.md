@@ -18,7 +18,7 @@ Formula del progetto: **1 + 1 fa 3**.
 |-----------|----------|-------|------|
 | Sito | `index.html`, `stile.css`, `img/` | Approvato, chiuso, online | Online all'indirizzo `https://davidemcb.github.io/che-postura/` (GitHub Pages di questo repository; la versione online è quella del ramo `main`). Pagina unica, completa. Approvato così com'è da Davide l'11 ottobre 2026. Da qui in poi si tocca solo se cambia un contatto o un messaggio di questo file. |
 | Volantino | `volantino/` | Pronto, da stampare | Bloccato da una foto: manca la foto di Morena mentre fa un personal (allenamento individuale). Scattata la foto, si inserisce e si manda in stampa. Il file non è ancora nel repository: da caricare qui (sorgente + PDF). |
-| Programma di analisi posturale | `programma/` | In lavorazione, poi da testare | È il programma del passo 2 del metodo: si inseriscono le foto della persona, il programma fa l'analisi posturale e permette di monitorare nel tempo cosa cambia. Davide lo sta finendo in questi giorni (ottobre 2026). Quando è finito si passa al test; prima del test non si considera pronto. Marker: bollini adesivi da cartolibreria (12 mm, blu e verde). Descrizione in `programma/scheda.md`. |
+| Programma di analisi posturale | `programma/` | In test: primo report prodotto il 12 ottobre 2026 | È il programma del passo 2 del metodo: si inseriscono le foto della persona, il programma fa l'analisi posturale, produce il report posturale con la proposta di percorso a 3 mesi (struttura in `programma/report.md`) e permette di monitorare nel tempo cosa cambia. Primo report fatto con un paziente di prova; da annotare il test in `programma/test.md` e sistemare le cose elencate in `programma/report.md`. Marker: bollini adesivi da cartolibreria (12 mm, blu e verde). Descrizione in `programma/scheda.md`. |
 | Modulo privacy | Documento "Consenso foto posturali e dati": https://claude.ai/code/artifact/5946d510-f39c-43d5-ae1c-924576b1fe64 | Bozza completa, da verificare con il consulente privacy | Modulo di consenso per foto posturali, dati e area riservata del programma. Dieci sezioni, firme, parte per i minori. Contiene una nota per il consulente con tre punti: firma del DPA di Supabase, eventuali accessi dall'estero per l'assistenza tecnica, uso della dettatura vocale (Google o Apple) per gli appunti del colloquio. Frase da far controllare: "non lo conserva per nostro conto" (riferita all'audio dettato). Non si fa firmare prima del via libera del consulente. |
 | Percorso della persona | `percorso/` | Bozza, da leggere con Morena | Il percorso a tappe da quando una persona arriva (Google Ads, sito, Instagram, da Davide a Morena e viceversa, passaparola) fino a recensione, follow-up e ambasciatore. Quattro file: `percorso.md` (le dieci tappe, con uscita e cosa può andare storto, e il metodo per migliorare ogni mese), `questionario.md` (questionario iniziale), `messaggi.md` (messaggi tipo), `registro.md` (una riga per persona, per vedere dove si ferma). |
 | Presentazione stato dei lavori | https://claude.ai/artifact/2Tdgq8VN6HxUBJPNN2RuoB | Pronta per l'incontro del 13 ottobre 2026 | Quattordici slide per Davide e Morena: dove siamo, cosa abbiamo fatto, il percorso in dieci tappe, il primo caso reale (da compilare), chi fa cosa, sei decisioni da prendere. Dopo l'incontro: riportare qui le decisioni. |
@@ -26,6 +26,10 @@ Formula del progetto: **1 + 1 fa 3**.
 
 Regola: un materiale esiste per il progetto solo se sta in questo repository.
 Se è stato fatto altrove, va copiato qui nella cartella indicata.
+
+Eccezione, senza deroghe: **foto, report e dati delle persone non entrano mai in questo
+repository**, che è pubblico (il sito è servito da qui). Restano nell'area riservata
+del programma. Qui sta solo la struttura dei documenti, mai un documento di una persona.
 
 ## Messaggi che devono essere uguali ovunque
 
@@ -91,7 +95,8 @@ Se un contatto cambia: aggiornarlo qui, poi nel sito, poi in ogni altro material
 
 1. Volantino: scattare la foto di Morena durante un personal, inserirla, poi stampare.
 2. Volantino: caricare sorgente e PDF in `volantino/`.
-3. Programma: finire la lavorazione (Davide, in questi giorni), poi fare il test. Annotare in `programma/test.md` cosa si è provato, cosa ha funzionato e cosa no.
+3. Programma: continuare il test (primo report il 12 ottobre con un paziente di prova). Annotare in `programma/test.md` cosa si è provato, cosa ha funzionato e cosa no.
+3b. Report: sistemare le cose in `programma/report.md`: il nome "Che Postura!" con il punto esclamativo in intestazione e piè di pagina, i titoli dei due professionisti allineati al sito, il nome "percorso Sinergia" (adottarlo anche sul sito o toglierlo), l'obiettivo della persona con le sue parole.
 4. Programma: quando è finito, caricare qui il codice o i file (oppure scrivere in `programma/scheda.md` dove sta e come si avvia).
 5. Controllare che volantino e programma usino i messaggi e i contatti di questo file.
 6. Completare `social/registro.md`: date dei due reel e conferma di quale link è quale.

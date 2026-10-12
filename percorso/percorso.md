@@ -101,8 +101,10 @@ Nella seduta, in ordine:
 6. **L'obiettivo della persona**, scritto in una frase sua, misurabile
    ("tornare a dormire senza svegliarmi per il collo", "fare le scale senza dolore al ginocchio").
    Si scrive nella scheda e si rilegge al ricontrollo.
-7. Proposta del percorso: quanti trattamenti con Davide, quando iniziano gli
-   esercizi con Morena, la data del ricontrollo. Tutto scritto e dato alla persona.
+7. Proposta del percorso: è il **report posturale** che produce il programma
+   (struttura in `../programma/report.md`): sintesi, foto prima e dopo, misure,
+   catene muscolari, lavoro fatto, piano a 3 mesi in tre fasi con le date, obiettivi
+   misurabili a 12 settimane. Si consegna alla persona e si rilegge insieme.
 8. Se serve bite o plantare: si dice subito e si spiega come funziona la collaborazione.
 
 **Uscita:** percorso accettato, con date; data del ricontrollo fissata.
@@ -124,8 +126,10 @@ riservata del programma (o, finché non c'è, in un messaggio a Morena):
 - la data del ricontrollo.
 
 Poi scrive alla persona: "ti presento Morena, ti scrive lei entro due giorni".
-Morena contatta la persona entro 48 ore, fissa la prima lezione, e si presenta
-sapendo già tutto.
+Morena contatta la persona entro 48 ore e si presenta sapendo già tutto. Nel piano
+a 3 mesi del report, Morena entra in una delle quattro sedute della fase 1 per la
+sua valutazione del movimento: è quello il primo incontro, e da lì partono le sue
+sedute nelle fasi 2 e 3.
 
 **Nel verso opposto (da Morena a Davide):** Morena compila la scheda di segnalazione
 (cosa ha notato, dove sente dolore, da quanto, cosa cambia con il movimento) e
@@ -157,6 +161,9 @@ troppo tempo tra una seduta e l'altra.
 ## Tappa 6 · Ricontrollo (passo 5 del metodo)
 
 **Obiettivo:** far vedere il risultato, nero su bianco, e decidere il dopo.
+
+Nel piano a 3 mesi i ricontrolli sono due: foto e test a 6 settimane (fine fase 2),
+rivalutazione completa a 12 settimane (fine fase 3). Entrambi sono questa tappa.
 
 1. Nuove foto posturali, stessi bollini, stessa posizione: confronto con i dati di partenza.
 2. Si rilegge l'obiettivo scritto in tappa 3 e si chiede alla persona: "è raggiunto?"
@@ -197,7 +204,8 @@ soddisfatto (prima si risolve, poi si chiede).
 Tre messaggi, brevi, personali, mai in serie:
 
 - **A 1 mese:** "come va rispetto a [obiettivo]?" e un consiglio legato al suo problema.
-- **A 3 mesi:** proposta di un controllo rapido delle foto, per vedere se tiene.
+- **A 3 mesi:** proposta di un controllo rapido delle foto, per vedere se tiene
+  (è il mantenimento "ogni 2-3 mesi" scritto nel report).
 - **A 6 mesi:** un messaggio legato alla stagione o alla sua attività, e la porta aperta.
 
 Chi risponde con un problema nuovo rientra in tappa 1 con fonte "ritorno".
