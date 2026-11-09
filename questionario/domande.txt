@@ -1,0 +1,54 @@
+# QUESTIONARIO DI CHE POSTURA — file delle domande
+#
+# Questo file si può modificare liberamente: la pagina del questionario lo legge
+# ogni volta che qualcuno la apre. Le righe che iniziano con # sono appunti e
+# non si vedono. Le istruzioni complete sono nel file LEGGIMI.md qui accanto.
+#
+# Come si scrive una domanda:   Testo della domanda | tipo | dettagli
+#   tipo:  testo         risposta breve su una riga
+#          testo lungo   risposta libera su più righe
+#          una scelta    il cliente sceglie UNA voce tra quelle elencate
+#          più scelte    il cliente può scegliere PIÙ voci
+#   dettagli: per le scelte, le voci separate da virgola;
+#             per i testi, un esempio che compare in grigio (facoltativo).
+#   Un asterisco * alla fine della domanda la rende obbligatoria.
+# Le sezioni iniziano con == e possono avere una frase sotto che inizia con >
+
+titolo = Raccontaci come stai
+intro = Bastano 3 minuti. Le risposte arrivano su WhatsApp direttamente a chi ti seguirà, così la prima volta che ci vediamo sappiamo già da dove partire.
+destinatario = Morena | 393713682776
+destinatario = Davide | 393481514382
+
+== Chi sei
+Nome e cognome* | testo
+Età | una scelta | meno di 30, 30–45, 45–60, oltre 60
+Come ci hai conosciuto? | testo | es. amica, Instagram, medico…
+
+== Perché ci scrivi
+> Dove senti fastidio o dolore, se c'è.
+Zone | più scelte | Collo, Spalle, Schiena alta, Lombare, Anche, Ginocchia, Piedi e caviglie, Testa e mandibola, Nessun dolore
+Da quanto tempo? | una scelta | Pochi giorni, Qualche settimana, Mesi, Anni
+Cosa lo peggiora o lo migliora? | testo lungo | es. peggiora dopo ore al computer, migliora camminando…
+
+== Cosa vorresti riuscire a fare
+> La funzione che ti interessa sviluppare, al di là del dolore.
+Obiettivi | più scelte | Più forza, Più mobilità, Equilibrio, Respirare meglio, Resistenza, Tornare a fare sport, Stare seduto/a senza dolore, Sollevare e portare, Dormire meglio, Gestire lo stress
+Un gesto o un'attività concreta che vuoi tornare a fare, o fare meglio | testo lungo | es. prendere in braccio mio figlio, correre 5 km, allacciarmi le scarpe senza fatica…
+
+== Come vorresti vedere il tuo corpo
+> Se hai anche un obiettivo di forma, dillo senza problemi.
+Vorrei | più scelte | Postura più dritta, Spalle aperte, Addome, Gambe e glutei, Tonicità generale, Perdere peso, L'aspetto non mi interessa
+Vuoi aggiungere qualcosa? | testo lungo
+
+== Le tue giornate
+Il tuo lavoro è soprattutto | una scelta | Seduto, In piedi, Fisico, Misto
+Ore seduto/a al giorno | una scelta | meno di 4, 4–8, più di 8
+Attività fisica attuale | testo | es. camminata 2 volte a settimana, palestra, niente…
+Come dormi | una scelta | Bene, Così così, Male
+Interventi, infortuni o diagnosi importanti | testo lungo | es. ernia L5-S1 nel 2019, frattura polso…
+
+== Cosa ti aspetti
+Quanto tempo puoi dedicarci a settimana | una scelta | 1 volta, 2 volte, 3 o più, Non lo so ancora
+Giorni e orari che preferisci | testo | es. mattina presto, martedì e giovedì…
+Tra 3 mesi, cosa vorresti poter dire di te? | testo lungo
+Hai già fatto percorsi simili? Com'è andata? | testo lungo
