@@ -15,40 +15,39 @@
 # Le sezioni iniziano con == e possono avere una frase sotto che inizia con >
 
 titolo = Raccontaci come stai
-intro = Bastano 3 minuti. Le risposte arrivano su WhatsApp direttamente a chi ti seguirà, così la prima volta che ci vediamo sappiamo già da dove partire.
+intro = Bastano 5 minuti. Le risposte arrivano su WhatsApp direttamente a chi ti seguirà, così la prima volta che ci vediamo sappiamo già da dove partire.
 destinatario = Morena | 393713682776
 destinatario = Davide | 393481514382
 
-== Chi sei
+== Dati personali
 Nome e cognome* | testo
-Età | una scelta | meno di 30, 30–45, 45–60, oltre 60
-Come ci hai conosciuto? | testo | es. amica, Instagram, medico…
+Età | testo | es. 42
+Altezza | testo | es. 1,68 m
+Peso attuale (anche approssimativo) | testo | es. 70 kg
+Che lavoro fai? | testo
+Il tuo lavoro è prevalentemente | una scelta | Sedentario (scrivania), Attivo / in piedi, Misto
 
-== Perché ci scrivi
-> Dove senti fastidio o dolore, se c'è.
-Zone | più scelte | Collo, Spalle, Schiena alta, Lombare, Anche, Ginocchia, Piedi e caviglie, Testa e mandibola, Nessun dolore
-Da quanto tempo? | una scelta | Pochi giorni, Qualche settimana, Mesi, Anni
-Cosa lo peggiora o lo migliora? | testo lungo | es. peggiora dopo ore al computer, migliora camminando…
+== Stato di salute e storico medico
+Hai mai avuto infortuni significativi (distorsioni, fratture, problemi a ginocchia, spalle, schiena)? | testo lungo
+Hai subito operazioni chirurgiche? Se sì, quali e quanto tempo fa? | testo lungo
+Soffri di dolori o fastidi ricorrenti? | più scelte | Zona lombare, Cervicale, Spalle, Ginocchia, Anche, Piedi e caviglie, Testa e mandibola, Nessuno
+Se sì, raccontaci meglio: da quanto, cosa lo peggiora o lo migliora | testo lungo
+Assumi farmaci o integratori su base regolare? Se sì, quali? | testo lungo
+Ci sono altre condizioni mediche particolari di cui dovremmo essere a conoscenza? | testo lungo
 
-== Cosa vorresti riuscire a fare
-> La funzione che ti interessa sviluppare, al di là del dolore.
-Obiettivi | più scelte | Più forza, Più mobilità, Equilibrio, Respirare meglio, Resistenza, Tornare a fare sport, Stare seduto/a senza dolore, Sollevare e portare, Dormire meglio, Gestire lo stress
-Un gesto o un'attività concreta che vuoi tornare a fare, o fare meglio | testo lungo | es. prendere in braccio mio figlio, correre 5 km, allacciarmi le scarpe senza fatica…
+== Alimentazione e stile di vita
+Come descriveresti la tua alimentazione attuale? | una scelta | Regolare, Un po' disordinata, Salto i pasti, Altro
+Vuoi aggiungere qualcosa sull'alimentazione? | testo
+Hai intolleranze, allergie o segui regimi alimentari specifici? | testo
+Quante ore dormi mediamente a notte? | una scelta | meno di 6, 6–7, 7–8, più di 8
+Ti svegli riposato/a? | una scelta | Sì, Così così, No
+Livello di stress generale da 1 a 10 | una scelta | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 
-== Come vorresti vedere il tuo corpo
-> Se hai anche un obiettivo di forma, dillo senza problemi.
-Vorrei | più scelte | Postura più dritta, Spalle aperte, Addome, Gambe e glutei, Tonicità generale, Perdere peso, L'aspetto non mi interessa
-Vuoi aggiungere qualcosa? | testo lungo
-
-== Le tue giornate
-Il tuo lavoro è soprattutto | una scelta | Seduto, In piedi, Fisico, Misto
-Ore seduto/a al giorno | una scelta | meno di 4, 4–8, più di 8
-Attività fisica attuale | testo | es. camminata 2 volte a settimana, palestra, niente…
-Come dormi | una scelta | Bene, Così così, Male
-Interventi, infortuni o diagnosi importanti | testo lungo | es. ernia L5-S1 nel 2019, frattura polso…
-
-== Cosa ti aspetti
-Quanto tempo puoi dedicarci a settimana | una scelta | 1 volta, 2 volte, 3 o più, Non lo so ancora
-Giorni e orari che preferisci | testo | es. mattina presto, martedì e giovedì…
-Tra 3 mesi, cosa vorresti poter dire di te? | testo lungo
-Hai già fatto percorsi simili? Com'è andata? | testo lungo
+== Rapporto con lo sport e obiettivi
+Hai già fatto sport o palestra in passato? Se sì, cosa e per quanto tempo? | testo lungo
+Qual è il tuo obiettivo principale in questo momento? | testo lungo | es. rimettermi in moto, tonificare, rimettermi in forma, migliorare la postura…
+Cosa vorresti riuscire a fare | più scelte | Più forza, Più mobilità, Equilibrio, Respirare meglio, Resistenza, Tornare a fare sport, Stare seduto/a senza dolore, Sollevare e portare, Dormire meglio, Gestire lo stress
+Come vorresti vedere il tuo corpo | più scelte | Postura più dritta, Spalle aperte, Addome, Gambe e glutei, Tonicità generale, Perdere peso, L'aspetto non mi interessa
+Quanti giorni a settimana vorresti o potresti dedicare all'allenamento? | una scelta | 1, 2, 3, 4 o più, Non lo so ancora
+Quanto tempo hai a disposizione per ogni sessione? | una scelta | 30 minuti, 40 minuti, 1 ora, più di 1 ora
+Visto che partiamo da casa: hai già dei piccoli attrezzi? | più scelte | Elastici, Manubri, Tappetino, Altro, Niente: partiamo a corpo libero
