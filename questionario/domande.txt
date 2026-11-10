@@ -15,39 +15,60 @@
 # Le sezioni iniziano con == e possono avere una frase sotto che inizia con >
 
 titolo = Raccontaci come stai
-intro = Bastano 5 minuti. Le risposte arrivano su WhatsApp direttamente a chi ti seguirà, così la prima volta che ci vediamo sappiamo già da dove partire.
-destinatario = Morena | 393713682776
+intro = Prima della valutazione in studio, aiutaci a capire da dove partire: ci vogliono 5 minuti. Le risposte arrivano su WhatsApp direttamente a Davide. Se hai referti, potrai mandarli in foto nella stessa chat.
 destinatario = Davide | 393481514382
+destinatario = Morena | 393713682776
 
-== Dati personali
+== Chi sei
 Nome e cognome* | testo
 Età | testo | es. 42
-Altezza | testo | es. 1,68 m
-Peso attuale (anche approssimativo) | testo | es. 70 kg
 Che lavoro fai? | testo
-Il tuo lavoro è prevalentemente | una scelta | Sedentario (scrivania), Attivo / in piedi, Misto
+Al lavoro sei soprattutto | una scelta | Seduto/a, In piedi fermo/a, In movimento, Faccio sforzi e sollevo carichi, Misto
+Come ci hai conosciuto? | testo | es. amica, medico, Instagram…
 
-== Stato di salute e storico medico
-Hai mai avuto infortuni significativi (distorsioni, fratture, problemi a ginocchia, spalle, schiena)? | testo lungo
-Hai subito operazioni chirurgiche? Se sì, quali e quanto tempo fa? | testo lungo
-Soffri di dolori o fastidi ricorrenti? | più scelte | Zona lombare, Cervicale, Spalle, Ginocchia, Anche, Piedi e caviglie, Testa e mandibola, Nessuno
-Se sì, raccontaci meglio: da quanto, cosa lo peggiora o lo migliora | testo lungo
-Assumi farmaci o integratori su base regolare? Se sì, quali? | testo lungo
-Ci sono altre condizioni mediche particolari di cui dovremmo essere a conoscenza? | testo lungo
+== Il motivo per cui ci scrivi
+Cosa ti porta da noi? Raccontalo con parole tue* | testo lungo
+Dove senti il dolore o il fastidio | più scelte | Collo, Spalle, Schiena alta, Lombare, Bacino e sacro, Anca, Ginocchio, Caviglia e piede, Gomito polso e mano, Mandibola, Mal di testa, Nessun dolore
+Da che lato | una scelta | Destro, Sinistro, Entrambi, Al centro
+Da quanto tempo | una scelta | Meno di 2 settimane, 1–3 mesi, 3–12 mesi, Più di un anno, Da sempre a fasi alterne
+Com'è iniziato | una scelta | All'improvviso dopo un movimento o un trauma, Poco alla volta senza un motivo preciso, Dopo un periodo di stress o un cambiamento di vita, Non lo so
+Quanto è forte nei momenti peggiori, da 1 a 10 | una scelta | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Quando c'è | più scelte | Al risveglio, Durante il giorno, La sera, Di notte, Sempre, Va e viene
+Cosa lo peggiora | più scelte | Stare seduto/a, Stare in piedi, Camminare, Piegarmi, Sollevare pesi, Lo sforzo, Il freddo, Lo stress, Certe posizioni a letto, Altro
+Cosa lo migliora | più scelte | Muovermi, Il riposo, Il caldo, Lo stretching, I farmaci, Il massaggio, Niente in particolare
+Si irradia, scende lungo un braccio o una gamba, dà formicolii? | una scelta | No, Sì verso un braccio, Sì verso una gamba, Formicolii o perdita di forza
+Cosa non riesci più a fare, o fai con fatica, per via di questo problema | testo lungo | es. dormire sul fianco, girarmi in auto, stare seduto al lavoro, correre…
 
-== Alimentazione e stile di vita
-Come descriveresti la tua alimentazione attuale? | una scelta | Regolare, Un po' disordinata, Salto i pasti, Altro
-Vuoi aggiungere qualcosa sull'alimentazione? | testo
-Hai intolleranze, allergie o segui regimi alimentari specifici? | testo
-Quante ore dormi mediamente a notte? | una scelta | meno di 6, 6–7, 7–8, più di 8
-Ti svegli riposato/a? | una scelta | Sì, Così così, No
-Livello di stress generale da 1 a 10 | una scelta | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+== La tua postura e le tue abitudini
+Ti hanno mai detto che hai una postura particolare? | testo lungo | es. scoliosi, spalle chiuse, una spalla più alta, iperlordosi, piedi piatti…
+Porti o hai portato | più scelte | Plantari, Bite, Busto o corsetto, Occhiali o lenti, Apparecchio ai denti, Nessuno
+Denti e mandibola: serri o digrigni i denti, senti click o dolore? | una scelta | No, Sì
+Vertigini, perdita di equilibrio o problemi di vista? | una scelta | No, Sì
+Piedi: dolori, calli, scarpe che si consumano da un lato? | testo
+Quante ore al giorno stai seduto/a | una scelta | meno di 4, 4–8, più di 8
+Come dormi | una scelta | Bene, Così così, Male
+In che posizione dormi di solito | più scelte | Sulla schiena, Sul fianco destro, Sul fianco sinistro, A pancia in giù
+Fai attività fisica? Quale e quanto | testo | es. camminata 3 volte a settimana, palestra, niente…
+Periodo di vita in questo momento | una scelta | Tranquillo, Un po' stressante, Molto stressante
 
-== Rapporto con lo sport e obiettivi
-Hai già fatto sport o palestra in passato? Se sì, cosa e per quanto tempo? | testo lungo
-Qual è il tuo obiettivo principale in questo momento? | testo lungo | es. rimettermi in moto, tonificare, rimettermi in forma, migliorare la postura…
-Cosa vorresti riuscire a fare | più scelte | Più forza, Più mobilità, Equilibrio, Respirare meglio, Resistenza, Tornare a fare sport, Stare seduto/a senza dolore, Sollevare e portare, Dormire meglio, Gestire lo stress
-Come vorresti vedere il tuo corpo | più scelte | Postura più dritta, Spalle aperte, Addome, Gambe e glutei, Tonicità generale, Perdere peso, L'aspetto non mi interessa
-Quanti giorni a settimana vorresti o potresti dedicare all'allenamento? | una scelta | 1, 2, 3, 4 o più, Non lo so ancora
-Quanto tempo hai a disposizione per ogni sessione? | una scelta | 30 minuti, 40 minuti, 1 ora, più di 1 ora
-Visto che partiamo da casa: hai già dei piccoli attrezzi? | più scelte | Elastici, Manubri, Tappetino, Altro, Niente: partiamo a corpo libero
+== La tua storia clinica
+Infortuni importanti: fratture, distorsioni, cadute, colpi di frusta, con quando | testo lungo
+Operazioni chirurgiche, quali e quando | testo lungo
+Diagnosi o patologie che conosci | testo lungo | es. ernia, artrosi, osteoporosi, problemi cardiaci, diabete, tiroide…
+Farmaci che prendi regolarmente | testo
+Gravidanze, se pertinente: quante e quanto tempo fa | testo
+Hai referti da farci vedere (radiografie, risonanze, ecografie, visite specialistiche)? | una scelta | Sì: li allego in foto su WhatsApp subito dopo questo messaggio, Sì: li porto di persona, No: non ne ho
+Cosa dicono i referti, in due parole | testo
+
+== Quello che hai già provato
+Per questo problema hai già fatto | più scelte | Fisioterapia, Osteopatia, Chiropratica, Massaggi, Ginnastica posturale o pilates, Farmaci o infiltrazioni, Visite specialistiche, Niente
+Cosa ha funzionato e cosa no | testo lungo
+Il problema era già passato e poi tornato? | una scelta | No è la prima volta, Sì una volta, Sì più volte
+
+== Cosa cerchi da noi
+Cosa vorresti | una scelta | Una seduta singola per il problema di adesso, Capire la causa e risolverla con un percorso, Essere seguito/a nel tempo per il mio benessere, Non lo so ancora
+Sei disposto/a a fare esercizi a casa tra una seduta e l'altra? | una scelta | Sì volentieri, Sì se sono pochi e brevi, Preferisco di no
+Dopo la valutazione, ti interesserebbe un lavoro sul movimento con Morena, a casa tua o in struttura? | una scelta | Sì, Forse dopo aver capito la situazione, No
+Tra 3 mesi, cosa vorresti poter dire di te? | testo lungo
+Giorni e orari in cui sei più libero/a | testo | es. mattina presto, martedì e giovedì…
+C'è altro che vuoi dirci? | testo lungo

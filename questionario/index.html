@@ -72,12 +72,13 @@
 
     <div class="q-sez" id="qInvio" hidden>
       <label class="q-cons"><input type="checkbox" id="consenso">
-        <span>Acconsento a inviare queste informazioni, anche sulla mia salute, tramite WhatsApp a Che Postura, che le userà solo per organizzare il mio percorso. Il sito non salva nulla.</span>
+        <span>Acconsento a inviare queste informazioni, anche sulla mia salute, tramite WhatsApp a Che Postura, che le userà solo per la mia valutazione e il mio percorso. Il sito non salva nulla.</span>
       </label>
       <div class="q-err" id="qErr"></div>
       <div class="q-f"><button class="q-btn" type="submit">Invia su WhatsApp</button></div>
       <button class="q-btn q-sec" type="button" id="qCopia">Copia le risposte</button>
       <div class="q-ok" id="qOk">Risposte copiate: puoi incollarle in un messaggio o in una mail.</div>
+      <div class="q-ok" id="qDopo">Il messaggio è pronto in WhatsApp: premi invia. Se hai referti, radiografie o risonanze, mandali come foto nella stessa chat.</div>
     </div>
   </form>
 
@@ -183,6 +184,7 @@
   form.addEventListener('submit', function (e) {
     e.preventDefault(); if (!check()) return;
     window.open('https://wa.me/' + who.phone + '?text=' + encodeURIComponent(build()), '_blank');
+    document.getElementById('qDopo').classList.add('on');
   });
   document.getElementById('qCopia').addEventListener('click', function () {
     if (!check()) return;
