@@ -2,9 +2,9 @@
 
 Pagina pubblica: **https://davidemcb.github.io/che-postura/questionario/**
 
-Il cliente risponde dal telefono e preme "Invia su WhatsApp": si apre WhatsApp con tutte le risposte già scritte, dirette a Morena. Il sito non salva nulla. I referti il cliente li manda in foto nella stessa chat.
+Il cliente risponde dal telefono e preme "Invia su WhatsApp": si apre WhatsApp con tutte le risposte già scritte, dirette a Morena. Il sito non salva nulla.
 
-Con `?a=davide` in fondo all'indirizzo le risposte vanno a Davide.
+Il sito Kinesiologia Studio ha un questionario suo, separato, con le domande per la valutazione di Davide.
 
 ## Cambiare le domande (senza programmare)
 
