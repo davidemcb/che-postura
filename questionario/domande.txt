@@ -15,9 +15,9 @@
 # Le sezioni iniziano con == e possono avere una frase sotto che inizia con >
 
 titolo = Raccontaci come stai
-intro = Prima della valutazione in studio, aiutaci a capire da dove partire: ci vogliono 5 minuti. Le risposte arrivano su WhatsApp direttamente a Davide. Se hai referti, potrai mandarli in foto nella stessa chat.
-destinatario = Davide | 393481514382
+intro = Prima della valutazione in studio, aiutaci a capire da dove partire: ci vogliono 5 minuti. Le risposte arrivano su WhatsApp direttamente a Morena. Se hai referti, potrai mandarli in foto nella stessa chat.
 destinatario = Morena | 393713682776
+destinatario = Davide | 393481514382
 
 == Chi sei
 Nome e cognome* | testo

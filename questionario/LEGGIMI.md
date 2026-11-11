@@ -2,9 +2,9 @@
 
 Pagina pubblica: **https://davidemcb.github.io/che-postura/questionario/**
 
-Il cliente risponde dal telefono e preme "Invia su WhatsApp": si apre WhatsApp con tutte le risposte già scritte, dirette a Davide. Il sito non salva nulla. I referti il cliente li manda in foto nella stessa chat.
+Il cliente risponde dal telefono e preme "Invia su WhatsApp": si apre WhatsApp con tutte le risposte già scritte, dirette a Morena. Il sito non salva nulla. I referti il cliente li manda in foto nella stessa chat.
 
-Con `?a=morena` in fondo all'indirizzo le risposte vanno a Morena.
+Con `?a=davide` in fondo all'indirizzo le risposte vanno a Davide.
 
 ## Cambiare le domande (senza programmare)
 
