@@ -16,9 +16,9 @@
 
 titolo = Raccontaci come stai
 intro = Bastano 5 minuti. Le risposte arrivano su WhatsApp direttamente a {nome}, così la prima volta che ci vediamo sappiamo già da dove partire.
-# Nell'intro, {nome} diventa il nome del destinatario. Il primo destinatario è quello predefinito. Per far arrivare le risposte a Morena
-# si manda il link con ?a=morena in fondo: .../questionario/?a=morena
-destinatario = Davide | 393481514382
+# Nell'intro, {nome} diventa il nome del destinatario. Il primo destinatario è quello
+# predefinito: Morena. Questo è il questionario di Morena (taglio fitness); quello di
+# Davide (posturale, massoterapico) sta sul sito Kinesiologia Studio.
 destinatario = Morena | 393713682776
 
 == Dati personali
