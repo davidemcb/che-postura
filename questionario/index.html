@@ -122,10 +122,10 @@
 
   // ---- costruzione della pagina ----
   function render() {
-    if (CFG.titolo) document.getElementById('qTitolo').textContent = CFG.titolo;
-    if (CFG.intro) document.getElementById('qIntro').textContent = CFG.intro;
     var want = (new URLSearchParams(location.search).get('a') || '').toLowerCase();
     who = CFG.dest.filter(function (d) { return d.name.toLowerCase() === want; })[0] || CFG.dest[0];
+    if (CFG.titolo) document.getElementById('qTitolo').textContent = CFG.titolo;
+    if (CFG.intro) document.getElementById('qIntro').textContent = CFG.intro.replace(/\{nome\}/g, who ? who.name : 'chi ti seguirà');
     if (who) { var a = document.getElementById('qA'); a.textContent = 'Le risposte vanno a ' + who.name; a.hidden = false; }
 
     var h = '';

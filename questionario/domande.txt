@@ -15,7 +15,10 @@
 # Le sezioni iniziano con == e possono avere una frase sotto che inizia con >
 
 titolo = Raccontaci come stai
-intro = Bastano 5 minuti. Le risposte arrivano su WhatsApp direttamente a Morena, così la prima volta che ci vediamo sappiamo già da dove partire.
+intro = Bastano 5 minuti. Le risposte arrivano su WhatsApp direttamente a {nome}, così la prima volta che ci vediamo sappiamo già da dove partire.
+# Nell'intro, {nome} diventa il nome del destinatario. Il primo destinatario è quello predefinito. Per far arrivare le risposte a Morena
+# si manda il link con ?a=morena in fondo: .../questionario/?a=morena
+destinatario = Davide | 393481514382
 destinatario = Morena | 393713682776
 
 == Dati personali

@@ -2,7 +2,9 @@
 
 Pagina pubblica: **https://davidemcb.github.io/che-postura/questionario/**
 
-Il cliente risponde dal telefono e preme "Invia su WhatsApp": si apre WhatsApp con tutte le risposte già scritte, dirette a Morena. Il sito non salva nulla.
+Il cliente risponde dal telefono e preme "Invia su WhatsApp": si apre WhatsApp con tutte le risposte già scritte, dirette a Davide. Il sito non salva nulla.
+
+Per farle arrivare a Morena si manda il link con `?a=morena` in fondo: https://davidemcb.github.io/che-postura/questionario/?a=morena
 
 Il sito Kinesiologia Studio ha un questionario suo, separato, con le domande per la valutazione di Davide.
 
@@ -24,6 +26,6 @@ Le domande stanno nel file **`domande.txt`**. Per modificarle:
   - per le scelte, nei dettagli vanno le voci separate da virgola
   - per i testi, nei dettagli si può mettere un esempio in grigio (facoltativo)
   - un `*` alla fine della domanda la rende obbligatoria
-- In alto: `titolo =`, `intro =` e `destinatario = Nome | numero WhatsApp` (il primo destinatario è quello predefinito).
+- In alto: `titolo =`, `intro =` e `destinatario = Nome | numero WhatsApp` (il primo destinatario è quello predefinito). Nell'`intro`, `{nome}` viene sostituito dal nome del destinatario.
 
 Se una riga è scritta male, la pagina la ignora e mostra il resto.
