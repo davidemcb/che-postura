@@ -59,7 +59,7 @@
     .prenota { background: var(--carta); padding-top: 56px; }
     .prenota .cornice { margin-top: 28px; background: #fff; border: 1px solid var(--linea); border-radius: 18px; overflow: hidden; }
     .calendly-inline-widget { min-width: 320px; height: 720px; }
-    .strade { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 40px; }
+    .strade { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-top: 40px; }
     .strada { background: var(--carta); border: 1px solid var(--linea); border-radius: 18px; padding: 24px; display: flex; flex-direction: column; }
     .strada .tipo { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--rosso); }
     .strada h3 { font-size: 21px; margin-top: 6px; }
@@ -339,7 +339,7 @@
     <div class="contenitore">
       <div class="occhiello">Spendere meno?</div>
       <h2>Risparmiare adesso costa di più dopo</h2>
-      <p class="sotto">Lo capiamo: 90 € per una valutazione sembrano tanti se esistono strade che costano meno. Facciamo i conti di dove portano, di solito, quelle strade.</p>
+      <p class="sotto">Lo capiamo: 90 € per una valutazione sembrano tanti se esistono strade che costano meno, o che sembrano più semplici. Facciamo i conti di dove portano, di solito, quelle strade. Il filo comune: si lavora su un pezzo solo del problema.</p>
 
       <div class="strade">
         <div class="strada">
@@ -356,6 +356,30 @@
         </div>
         <div class="strada">
           <div class="tipo">Strada 2</div>
+          <h3>Solo le mani</h3>
+          <p>Un pacchetto di trattamenti o di massaggi. Il sollievo c'è, e dura una o due settimane. Ma se il muscolo debole che ha creato la tensione resta debole, e quello contratto resta corto, la tensione si riforma. E si compra un altro pacchetto.</p>
+          <ul class="conto">
+            <li><span>Pacchetto da 10 trattamenti</span><span>450–600 €</span></li>
+            <li><span>Si ricomincia ogni 3–4 mesi</span><span>× 3 l'anno</span></li>
+            <li><span>In un anno</span><span>1.350–1.800 €</span></li>
+            <li class="tot"><span>Muscolo debole</span><span>ancora debole</span></li>
+          </ul>
+          <div class="esito-s">Si tratta l'effetto, mai la causa. Il problema torna.</div>
+        </div>
+        <div class="strada">
+          <div class="tipo">Strada 3</div>
+          <h3>Solo il movimento</h3>
+          <p>Si parte dagli esercizi, in palestra o con un istruttore. Ma un'articolazione bloccata o una fascia incollata non si sbloccano con l'esercizio: il corpo aggira il blocco e tu alleni il compenso. Ti alleni per mesi, il blocco è sempre lì, e alcune condizioni non si risolvono mai.</p>
+          <ul class="conto">
+            <li><span>2 lezioni a settimana</span><span>25–40 € l'una</span></li>
+            <li><span>Al mese</span><span>200–320 €</span></li>
+            <li><span>In un anno</span><span>2.400–3.800 €</span></li>
+            <li class="tot"><span>Blocco, a 12 mesi</span><span>sempre lì</span></li>
+          </ul>
+          <div class="esito-s">Il corpo bloccato va sbloccato con le mani, prima.</div>
+        </div>
+        <div class="strada">
+          <div class="tipo">Strada 4</div>
           <h3>Il giro dei professionisti</h3>
           <p>Uno ti tratta, un altro ti fa muovere, un terzo ti manda da un quarto. Ognuno vede il suo pezzo, nessuno ha la visione del percorso intero. Ricominci da capo ogni volta, con la tua storia e con il portafoglio.</p>
           <ul class="conto">
@@ -368,7 +392,7 @@
           <div class="esito-s">15 appuntamenti, e il dolore torna.</div>
         </div>
         <div class="strada">
-          <div class="tipo">Strada 3</div>
+          <div class="tipo">Strada 5</div>
           <h3>Aspettare che passi</h3>
           <p>Un antidolorifico, un cuscino nuovo, "sto attento". Il dolore si abbassa e si rialza. Nel frattempo il corpo si adatta: compensa, irrigidisce altrove, e quello che era un problema diventa due.</p>
           <ul class="conto">
@@ -394,6 +418,8 @@
         <div class="no">
           <h3>Senza una visione d'insieme</h3>
           <ul>
+            <li>Solo trattamenti: il sollievo dura due settimane, poi il muscolo debole riporta la tensione</li>
+            <li>Solo esercizi: su un corpo bloccato alleni il compenso, e il blocco resta</li>
             <li>Paghi più volte la stessa diagnosi, da persone diverse</li>
             <li>Nessuno decide quando il percorso è finito: si va avanti finché smetti tu</li>
             <li>Il trattamento e gli esercizi si annullano a vicenda, perché nessuno li coordina</li>
