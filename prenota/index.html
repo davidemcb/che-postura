@@ -57,6 +57,31 @@
     .prenota { background: var(--carta); padding-top: 56px; }
     .prenota .cornice { margin-top: 28px; background: #fff; border: 1px solid var(--linea); border-radius: 18px; overflow: hidden; }
     .calendly-inline-widget { min-width: 320px; height: 720px; }
+    .strade { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 40px; }
+    .strada { background: var(--carta); border: 1px solid var(--linea); border-radius: 18px; padding: 24px; display: flex; flex-direction: column; }
+    .strada .tipo { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--rosso); }
+    .strada h3 { font-size: 21px; margin-top: 6px; }
+    .strada p { color: var(--tenue); font-size: 16px; margin-top: 10px; line-height: 1.55; }
+    .conto { list-style: none; margin-top: 14px; border-top: 1px solid var(--linea); font-size: 15px; }
+    .conto li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--linea); color: var(--inchiostro); }
+    .conto li span:last-child { white-space: nowrap; font-weight: 700; }
+    .conto li.tot { font-family: var(--serif); font-weight: 700; font-size: 18px; color: var(--rosso); border-bottom: 0; }
+    .strada .esito-s { margin-top: auto; padding-top: 14px; font-size: 15px; font-weight: 700; color: var(--rosso); }
+    .strada .esito-s::before { content: '✕ '; }
+    .come { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 30px; }
+    .come > div { background: var(--sabbia); border-radius: 18px; padding: 22px 24px; }
+    .come b { display: block; font-family: var(--serif); font-size: 24px; color: var(--verde-scuro); }
+    .come p { font-size: 16px; color: var(--inchiostro); margin-top: 8px; line-height: 1.55; }
+    .vs { margin-top: 34px; background: var(--verde-scuro); color: var(--crema); border-radius: 18px; padding: 28px 30px; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .vs h3 { color: var(--crema); font-size: 22px; }
+    .vs ul { list-style: none; margin-top: 12px; }
+    .vs li { position: relative; padding: 7px 0 7px 28px; font-size: 16px; line-height: 1.45; }
+    .vs li::before { position: absolute; left: 0; top: 6px; font-weight: 700; font-size: 18px; }
+    .vs .no li::before { content: '✕'; color: var(--arancio-chiaro); }
+    .vs .si li::before { content: '✓'; color: var(--arancio); }
+    .vs .si { background: var(--crema); color: var(--inchiostro); border-radius: 14px; padding: 20px 22px; margin: -8px; }
+    .vs .si h3 { color: var(--verde-scuro); }
+    .nota-prezzi { font-size: 13.5px; color: var(--tenue); margin-top: 16px; }
     .contatti .recapito p a { text-decoration: underline; }
 
     .barra { display: none; position: fixed; left: 0; right: 0; bottom: 0; z-index: 15; background: rgba(36,73,63,.98); padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); gap: 8px; box-shadow: 0 -8px 24px rgba(0,0,0,.18); }
@@ -83,6 +108,8 @@
       .scheda { padding: 22px; }
       .scheda h2 { font-size: 24px; }
       .cta { padding: 20px; }
+      .strade, .come, .vs { grid-template-columns: 1fr; }
+      .vs .si { margin: 0; }
       .cta .azioni { width: 100%; }
       .cta .azioni .bottone { flex: 1; text-align: center; }
       .barra { display: flex; }
@@ -300,6 +327,93 @@
         <div>
           <h3>Perché l'ordine conta</h3>
           <p style="margin-top:12px;color:var(--tenue)">Allenare un muscolo contratto lo irrigidisce ancora. Trattare un muscolo debole senza rinforzarlo lo lascia come prima. Per questo prima si libera, poi si lavora sul movimento, poi si rivaluta. Morena sa cosa ha trovato Davide, Davide sa come rispondi al movimento: ogni passo parte da ciò che l'altro ha visto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ IL COSTO DI RISPARMIARE ============ -->
+  <section class="scuro" id="costo">
+    <div class="contenitore">
+      <div class="occhiello">Spendere meno?</div>
+      <h2>Risparmiare adesso costa di più dopo</h2>
+      <p class="sotto">Lo capiamo: 90 € per una valutazione sembrano tanti se esistono strade che costano meno. Facciamo i conti di dove portano, di solito, quelle strade.</p>
+
+      <div class="strade">
+        <div class="strada">
+          <div class="tipo">Strada 1</div>
+          <h3>Gli esercizi online</h3>
+          <p>Un'app, un video, una scheda in PDF: tanti esercizi, nessuno che guarda come li fai. E fatti male, gli esercizi rinforzano il muscolo sbagliato o tirano dove non serve. Dopo mesi il problema è lo stesso, a volte peggio.</p>
+          <ul class="conto">
+            <li><span>Abbonamento o programma</span><span>20–40 € al mese</span></li>
+            <li><span>Per 12 mesi</span><span>240–480 €</span></li>
+            <li><span>Ore di esercizi fatti a vuoto</span><span>50–100</span></li>
+            <li class="tot"><span>Risultato</span><span>non misurato</span></li>
+          </ul>
+          <div class="esito-s">Sai cosa fare. Non sai come, quando, perché.</div>
+        </div>
+        <div class="strada">
+          <div class="tipo">Strada 2</div>
+          <h3>Il giro dei professionisti</h3>
+          <p>Uno ti tratta, un altro ti fa muovere, un terzo ti manda da un quarto. Ognuno vede il suo pezzo, nessuno ha la visione del percorso intero. Ricominci da capo ogni volta, con la tua storia e con il portafoglio.</p>
+          <ul class="conto">
+            <li><span>6 sedute di terapia manuale</span><span>360 €</span></li>
+            <li><span>4 sedute da un altro professionista</span><span>280 €</span></li>
+            <li><span>5 massaggi "per sciogliere"</span><span>250 €</span></li>
+            <li><span>Visita ed esami per capire</span><span>250 €</span></li>
+            <li class="tot"><span>In un anno</span><span>≈ 1.100 €</span></li>
+          </ul>
+          <div class="esito-s">15 appuntamenti, e il dolore torna.</div>
+        </div>
+        <div class="strada">
+          <div class="tipo">Strada 3</div>
+          <h3>Aspettare che passi</h3>
+          <p>Un antidolorifico, un cuscino nuovo, "sto attento". Il dolore si abbassa e si rialza. Nel frattempo il corpo si adatta: compensa, irrigidisce altrove, e quello che era un problema diventa due.</p>
+          <ul class="conto">
+            <li><span>Antidolorifici, cerotti, cuscini</span><span>150–300 € l'anno</span></li>
+            <li><span>Giornate storte</span><span>non si contano</span></li>
+            <li><span>Il problema fra un anno</span><span>più grande</span></li>
+            <li class="tot"><span>Costo vero</span><span>il tempo</span></li>
+          </ul>
+          <div class="esito-s">Ogni mese che passa serve più lavoro per tornare indietro.</div>
+        </div>
+      </div>
+      <p class="nota-prezzi">Cifre indicative, prezzi medi della zona. Il tuo caso può costare meno. O di più.</p>
+
+      <h3 style="margin-top:52px;font-size:28px">Cosa fare lo trovi ovunque. Morena ti dà il resto.</h3>
+      <p class="sotto" style="margin-top:10px">Un esercizio è giusto o sbagliato a seconda di chi lo fa, di come lo fa e del momento in cui lo fa. È qui che il lavoro personalizzato si ripaga.</p>
+      <div class="come">
+        <div><b>Come</b><p>La posizione, il respiro, il ritmo, fin dove arrivare. Morena guarda come lo fai e corregge sul momento: è la differenza tra rinforzare il muscolo giusto e quello sbagliato.</p></div>
+        <div><b>Quando</b><p>In che fase del percorso, dopo quale trattamento, quante volte, cosa prima e cosa dopo. Lo stesso esercizio fatto nel momento sbagliato irrigidisce invece di liberare.</p></div>
+        <div><b>Perché</b><p>Quale muscolo stiamo cercando, in quale catena, cosa ci aspettiamo di vedere al ricontrollo. Se sai il perché, lo fai bene anche a casa da solo.</p></div>
+      </div>
+
+      <div class="vs">
+        <div class="no">
+          <h3>Senza una visione d'insieme</h3>
+          <ul>
+            <li>Paghi più volte la stessa diagnosi, da persone diverse</li>
+            <li>Nessuno decide quando il percorso è finito: si va avanti finché smetti tu</li>
+            <li>Il trattamento e gli esercizi si annullano a vicenda, perché nessuno li coordina</li>
+            <li>Il dolore torna, e si ricomincia con qualcun altro</li>
+          </ul>
+        </div>
+        <div class="si">
+          <h3>Con Che Postura!</h3>
+          <ul>
+            <li>Una valutazione sola, 90 €, con il primo trattamento incluso</li>
+            <li>Un numero di sedute definito dopo la valutazione, non "vediamo come va"</li>
+            <li>Trattamento ed esercizi coordinati dalle stesse persone, sulle stesse informazioni</li>
+            <li>Un ricontrollo misurato che dice cosa è cambiato e quando puoi fermarti</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cta">
+        <p>Prenota la valutazione<span>60 minuti · 90 € · Via Capilupi 21, Modena</span></p>
+        <div class="azioni">
+          <a class="bottone" href="https://calendly.com/infokinesiologia/consulenza" target="_blank" rel="noopener" onclick="apriCalendario(event)">Scegli giorno e ora</a>
+          <a class="bottone chiaro" href="https://wa.me/393481514382?text=Ciao%2C%20vorrei%20prenotare%20una%20valutazione%20posturale" target="_blank" rel="noopener" onclick="conv('whatsapp')">WhatsApp</a>
         </div>
       </div>
     </div>
