@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Valutazione posturale a Modena — Che Postura!</title>
-  <meta name="description" content="Mal di schiena, cervicale, spalle o ginocchia che tornano? Prenota la valutazione posturale a Modena: due professionisti, un solo percorso, 128 recensioni a 5 stelle.">
+  <title>Valutazione e trattamento posturale a Modena — Che Postura!</title>
+  <meta name="description" content="Mal di schiena, cervicale, spalle o ginocchia che tornano? A Modena: si trova la causa, si tratta con le mani nella stessa seduta, si costruisce il piano di movimento. 128 recensioni a 5 stelle.">
   <!-- Pagina di destinazione degli annunci: non va indicizzata, il sito principale resta la home -->
   <meta name="robots" content="noindex, follow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,9 +22,11 @@
     @media (min-width: 861px) { .apertura .contenitore { grid-template-columns: 1.1fr .9fr; align-items: start; } }
     .apertura h1 { font-size: clamp(36px, 5.4vw, 58px); line-height: 1.04; }
     .apertura .promessa { margin-top: 18px; }
-    .incluso { list-style: none; margin-top: 20px; display: grid; gap: 8px; font-size: 16.5px; color: #D5DDD6; }
-    .incluso li { position: relative; padding-left: 28px; }
-    .incluso li::before { content: '✓'; position: absolute; left: 0; top: 0; color: var(--arancio-chiaro); font-weight: 700; }
+    .tre-passi { list-style: none; margin-top: 24px; display: grid; gap: 12px; counter-reset: tp; }
+    .tre-passi li { position: relative; padding-left: 46px; }
+    .tre-passi li::before { counter-increment: tp; content: counter(tp); position: absolute; left: 0; top: 1px; width: 32px; height: 32px; border-radius: 50%; background: var(--arancio); color: #fff; font-family: var(--serif); font-weight: 700; font-size: 17px; display: flex; align-items: center; justify-content: center; }
+    .tre-passi b { display: block; font-size: 18px; color: var(--crema); }
+    .tre-passi span { display: block; font-size: 15.5px; color: #D5DDD6; line-height: 1.5; margin-top: 2px; }
     .scheda { background: var(--crema); color: var(--inchiostro); border-radius: 22px; padding: 28px; box-shadow: 0 18px 44px rgba(0,0,0,.28); }
     .scheda .occhiello { color: var(--arancio); }
     .scheda h2 { font-size: 28px; margin-top: 6px; }
@@ -197,14 +199,13 @@
     <div class="contenitore">
       <div>
         <div class="occhiello">Che Postura! · Modena</div>
-        <h1>Valutazione posturale<br>per il dolore <span>che torna</span></h1>
-        <p class="promessa">Schiena, collo, spalle, anca, ginocchio. Prima di provare l'ennesima strada, misuriamo da dove parte.</p>
-        <ul class="incluso">
-          <li>60 minuti in studio con il Dott. Davide Scuderi</li>
-          <li>Colloquio, test muscolari e dati misurati della tua postura</li>
-          <li>Primo trattamento incluso: si inizia a lavorare subito</li>
-          <li>Esci sapendo cosa ha il tuo corpo e qual è il passo successivo</li>
-        </ul>
+        <h1>Valutazione e trattamento<br>per il dolore <span>che torna</span></h1>
+        <p class="promessa">Schiena, collo, spalle, anca, ginocchio. Non ti diciamo solo cosa hai: nella stessa seduta iniziamo a trattarlo.</p>
+        <ol class="tre-passi">
+          <li><b>Si valuta e si trova la causa.</b><span>Colloquio, test muscolari, dati misurati della tua postura: da dove parte il problema, che spesso non è dove fa male.</span></li>
+          <li><b>Si tratta la causa con le mani.</b><span>Il Dott. Davide Scuderi lavora sulla problematica trovata, con massoterapia su muscoli, tendini, articolazioni e fasce. Già nel primo incontro.</span></li>
+          <li><b>Si costruisce il piano di movimento.</b><span>Sulla base della causa individuata, non su esercizi generici. Con la Dott.ssa Morena Anastasi.</span></li>
+        </ol>
         <div class="fiducia">
           <span><span class="stelle">★★★★★</span> 5,0 su Google · 128 recensioni</span>
           <span>📍 Via Capilupi 21, Modena</span>
@@ -213,8 +214,9 @@
       <div class="scheda">
         <div class="occhiello">Prenota adesso</div>
         <h2>Scegli giorno e ora</h2>
-        <div class="prezzo"><b>90 €</b><span>valutazione + primo trattamento<br>60 minuti, si paga in studio</span></div>
+        <div class="prezzo"><b>90 €</b><span>valutazione + trattamento manuale<br>60 minuti, si paga in studio</span></div>
         <ul>
+          <li>🔍 Si trova la causa e la si tratta subito</li>
           <li>📅 Vedi subito le disponibilità</li>
           <li>📍 Via Capilupi 21, Modena</li>
         </ul>
@@ -230,7 +232,7 @@
     <div class="contenitore">
       <div class="occhiello">Il calendario</div>
       <h2>Prenota la valutazione</h2>
-      <p class="sotto">Scegli giorno e ora qui sotto. La prima seduta è in studio da Davide, in Via Capilupi 21 a Modena. Preferisci parlare con una persona? <a href="https://wa.me/393481514382?text=Ciao%2C%20vorrei%20prenotare%20una%20valutazione%20posturale" target="_blank" rel="noopener" onclick="conv('whatsapp')" style="color:var(--verde-scuro);font-weight:700">WhatsApp</a> o <a href="tel:+393481514382" onclick="conv('chiama')" style="color:var(--verde-scuro);font-weight:700">348 151 4382</a>.</p>
+      <p class="sotto">Scegli giorno e ora qui sotto. La prima seduta è in studio da Davide, in Via Capilupi 21 a Modena: valutazione e trattamento manuale nella stessa ora. Preferisci parlare con una persona? <a href="https://wa.me/393481514382?text=Ciao%2C%20vorrei%20prenotare%20una%20valutazione%20posturale" target="_blank" rel="noopener" onclick="conv('whatsapp')" style="color:var(--verde-scuro);font-weight:700">WhatsApp</a> o <a href="tel:+393481514382" onclick="conv('chiama')" style="color:var(--verde-scuro);font-weight:700">348 151 4382</a>.</p>
       <div class="cornice">
         <div class="calendly-inline-widget" data-url="https://calendly.com/infokinesiologia/consulenza?hide_gdpr_banner=1&primary_color=e8742a"></div>
       </div>
